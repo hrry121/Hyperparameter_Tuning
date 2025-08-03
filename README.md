@@ -22,12 +22,12 @@ This project demonstrates hyperparameter tuning on a regression model using **Sc
 ├── requirements.txt     # Required packages
 └── README.md            # You're here!
 
+---
 
-## 🛠️ Tech Stack
+## 🛠️ **Tech Stack**
 
 - Python
 - Scikit-Learn  
 - MLflow  
 - Pandas  
 
----
