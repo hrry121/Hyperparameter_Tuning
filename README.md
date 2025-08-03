@@ -6,11 +6,11 @@ This project demonstrates hyperparameter tuning on a regression model using **Sc
 
 ## 📌 Project Highlights
 
-- **Model Optimization** via Grid Search over defined hyperparameter space  
+- **Model Optimization** via Grid Search over a defined hyperparameter space  
 - **Cross-Validation** with `cv=3` to ensure model generalization  
 - **Metric Used**: Mean Squared Error (MSE) for evaluation  
-- **Experiment Tracking** with MLflow (parameters, metrics, artifacts, and model)  
-- **Best Model Selection** based on lowest average MSE across folds
+- **Experiment Tracking** with MLflow (parameters, metrics, artifacts, and models)  
+- **Best Model Selection** based on the lowest average MSE across folds
 
 ---
 
@@ -22,11 +22,3 @@ This project demonstrates hyperparameter tuning on a regression model using **Sc
 ├── requirements.txt     # Required packages
 └── README.md            # You're here!
 
----
-
-## **View MLflow UI**
-
-```bash
-mlflow ui
-
-Then open http://localhost:5000 in your browser to view experiment results
