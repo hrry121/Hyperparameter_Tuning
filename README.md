@@ -17,7 +17,16 @@ This project demonstrates hyperparameter tuning on a regression model using **Sc
 ## 📂 Project Structure
 
 ```bash
-├── mlruns/                   # MLflow logs (auto-generated)
+├── mlruns/              # MLflow logs (auto-generated)
 ├── house_prediction.py  # Script to run tuning + tracking
 ├── requirements.txt     # Required packages
 └── README.md            # You're here!
+
+---
+
+## **View MLflow UI**
+
+```bash
+mlflow ui
+
+Then open http://localhost:5000 in your browser to view experiment results
